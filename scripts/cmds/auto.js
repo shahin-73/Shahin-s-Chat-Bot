@@ -24,16 +24,16 @@ module.exports = {
     const linkMatch = message.match(/(https?:\/\/[^\s]+)/);
     if (!linkMatch) return;
 
-    const inputUrl = linkMatch[0];
+    const sumaiya = linkMatch[0];
     api.setMessageReaction("♻", event.messageID, () => {}, true);
 
     try {
       
       const jsonRes = await axios.get("https://raw.githubusercontent.com/MR-MAHABUB-004/MAHABUB-BOT-STORAGE/refs/heads/main/APIURL.json");
-      const apiUrlBase = jsonRes.data.Alldl;
+      const mahhabub4xBase = jsonRes.data.Alldl;
 
       
-      const response = await axios.get(`${apiUrlBase}${encodeURIComponent(inputUrl)}`);
+      const response = await axios.get(`${mahhabub4xBase}${encodeURIComponent(sumaiya)}`);
       const { title, downloadurlX } = response.data;
 
       if (!downloadurlX) {
