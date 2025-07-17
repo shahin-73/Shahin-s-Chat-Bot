@@ -1,6 +1,6 @@
 {
-  "author": "MR᭄﹅ MAHABUB﹅ メꪜ",
-  "ownerUID": "100014754734049",
+  "author": "SHAHIN メ",
+  "ownerUID": "100075691993841",
   "note": " do not cut author name or owner uid.. otherwise bot will not work ⚠️",
 
 
@@ -24,18 +24,18 @@
     "ignoreCommand": []
   },
   "adminBot": [
-    "100014754734049",
-    "100075122837809",
-    "100085332887575"
+    "100075691993841",
+    "100051228495456",
+    ""
   ],
   "whiteListMode": {
     "enable": false,
     "whiteListIds": [
-      "100014754734049"
+      "100075691993841"
     ],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "「 𝐌𝐀𝐇𝐀𝐁𝐔𝐁-𝐁𝐎𝐓 」🩷🪽",
+  "nickNameBot": "「 SHAHIN's-𝐁𝐎𝐓",
   "prefix": "/",
   "database": {
     "type": "sqlite",
