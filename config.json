@@ -24,18 +24,18 @@
     "ignoreCommand": []
   },
   "adminBot": [
-    "100075691993841",
-    "100051228495456",
-    ""
+    "100014754734049",
+    "100075122837809",
+    "100075691993841"
   ],
   "whiteListMode": {
     "enable": false,
     "whiteListIds": [
-      "100075691993841"
+      "100014754734049"
     ],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "「 SHAHIN's-𝐁𝐎𝐓",
+  "nickNameBot": "「 𝐌𝐀𝐇𝐀𝐁𝐔𝐁-𝐁𝐎𝐓 」🩷🪽",
   "prefix": "/",
   "database": {
     "type": "sqlite",
